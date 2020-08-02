@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="y629[sj]``1u0KVgl0@W">Player</variable><variable type="KIND_SpriteKind" id="j;OrkTQ.;B;,nM5p$n6?">Projectile</variable><variable type="KIND_SpriteKind" id="ChgCgfh1*HSi!aJb4*3E">Food</variable><variable type="KIND_SpriteKind" id="TWRZk^Ce/rra@b|0ch{e">Enemy</variable><variable type="ActionKind" id="9hK#ja_)A2v=^!v?]Sdq">0Walking</variable><variable type="ActionKind" id="f,pVVU8#zj!J?fV[DW9P">1Idle</variable><variable type="ActionKind" id="q_s+_k9pgS0pBp_AyJk3">2Jumping</variable><variable id="Fpf6/SR)0NprSmsn5n|}">Sausage</variable><variable id="#mkiptPtg1D8J3^@ao#w">Idle</variable></variables><block type="pxt-on-start" id="}aS)o!#unkl[%$ta0WU2" x="-10" y="-10"><statement name="HANDLER"><block type="variables_set" id="nyA5lQuT/taR$(t]A*r?"><field name="VAR" id="Fpf6/SR)0NprSmsn5n|}">Sausage</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id=")p1LHNC:RoRaHhlG]*Kc"><value name="img"><shadow type="screen_image_picker" id="dgGa?3hpYHyX5%f_kXfw"><field name="img">img`
+. . . . . . . . 4 4 . . . . . . . . 
+. . . . . . . 4 4 4 4 . . . . . . . 
+. . . . . . . f 4 4 f . . . . . . . 
+. . . . . . . 4 4 4 4 . . . . . . . 
+. . . . . . . 4 4 4 4 . . . . . . . 
+. . . . . . . f 4 4 f . . . . . . . 
+. . . . . . . 4 f f 4 . . . . . . . 
+. . . . . . f 4 4 4 4 f . . . . . . 
+. . . . . . f 4 4 4 4 f . . . . . . 
+. . . . . . f 4 4 4 4 f . . . . . . 
+. . . . . . f 4 4 4 4 f . . . . . . 
+. . . . . . f 4 4 4 4 f . . . . . . 
+. . . . . . . f 4 4 f . . . . . . . 
+. . . . . . . f . . f . . . . . . . 
+. . . . . . . f . . f . . . . . . . 
+. . . . . . . f . . f . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="A}0WGu]@#BCdM9a@|GLM"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="function_definition" id="rb0w{?Rm8lzG/TsW.v3b" x="10" y="310"><mutation name="Idle2" functionid="x4B=M0mmNg927w_770p#"/><field name="function_name">Idle2</field><statement name="STACK"><block type="attachAnimation" id="w2GYhJETz3eyYcxTkEUx"><value name="set"><block type="variables_get" id="1p`AVa:l^HLN+G!=y-oy"><field name="VAR" id="#mkiptPtg1D8J3^@ao#w">Idle</field></block></value><value name="sprite"><block type="variables_get" id="T!b0B=B1LUrwz6mH[52v"><field name="VAR" id="Fpf6/SR)0NprSmsn5n|}">Sausage</field></block></value></block></statement></block></xml>
